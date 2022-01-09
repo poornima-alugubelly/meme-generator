@@ -63,7 +63,7 @@ export default function Meme() {
                 </button>
             </div>
             <div className="meme">
-             <img src={meme.randomImage} className="meme--image" />
+             <img src={meme.randomImage} alt="img-meme" className="meme--image" />
                <h2 className="meme--text top">{meme.topText}</h2>
               <h2 className="meme--text bottom">{meme.bottomText}</h2>
                
